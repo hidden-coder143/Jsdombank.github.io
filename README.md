@@ -1,2 +1,2 @@
 # JsDom
-https://hidden-coder143.github.io/Jsdombank/
+https://hidden-coder143.github.io/Jsdombank.github.io/
