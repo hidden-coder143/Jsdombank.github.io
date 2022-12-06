@@ -1,0 +1,79 @@
+.Loging-area{
+    background: url(../image/background.jpg);
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Loging{
+    background-color: transparent ;
+    padding: 30px 30px;
+    width: 30%;
+    box-shadow: 0 20px 40px rgba(2, 0, 0, 0.1), 0 80px 16px rgba(10, 0, 0, 0.1);
+    border-radius: 5px;
+    border: 2px white;
+    color: white;
+    
+}
+.Loging-area .Loging h3{
+    text-align: center;
+}
+
+.Loging-area .Loging #LogignBtn{
+    width: 50%;
+    margin-top: 10px;
+    
+}
+.Loging-area .Loging .form-label{
+    font-weight: 600;
+}
+
+ #transectionArea{
+    display: none;
+} 
+
+#transectionArea h3{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom:60px ;
+}
+
+.Deposit,
+.Withdrow,.Balance{
+    padding: 30px 60px;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    width: 55%;
+    
+}
+.Deposit{
+    background-color: darkgoldenrod;
+}
+.Withdrow{
+    background-color: rgb(219, 17, 17);
+}
+.Balance{
+    background-color: blue;
+}
+
+
+.over{
+    overflow: hidden;
+}
+.Deposit-area,.Withdrow-area{
+    background-color: rgb(229, 239, 240);
+    padding: 50px 20px;
+    width: 60%;
+    margin: auto;
+    margin-top: 90px;
+    text-align: center;
+    color: rgb(12, 0, 0);
+    border-radius: 20px;
+    box-shadow: 5px 5px 9px gray;
+
+} 

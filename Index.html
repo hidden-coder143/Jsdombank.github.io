@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Assect/css/style.css">
+</head>
+<body>
+   
+    <div id="Logingint" class="Loging-area">
+        <div  class="Loging">
+            
+            <h3>Loging your Account </h3>
+            <hr>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Account Number</label>
+                <input type="email" class="form-control" placeholder="0056-032181350">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Password</label>
+                <input type="password" class="form-control"  >
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Remember me 
+                </label>
+              </div>
+              <a href="">forget your password?</a>
+              <div>
+                <input class="btn btn-outline-light" id="LogignBtn" type="submit" value="Submit">
+              </div>
+            
+       
+    </div>
+    
+</div>
+
+    <div id="transectionArea">
+        <h3>Transection area start </h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="Deposit status">
+                        <h5>Deposit</h5>
+                        <h2>$<span id="currentDeposit">00</span></h2>
+                    </div>
+                </div>
+                    <div class="col-md-4">
+                        <div class="Withdrow status">
+                            <h5>Withdrow</h5>
+                            <h2>$<span id="currentWithdrow">00</span></h2>
+                        </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="Balance status">
+                                <h5>Balance</h5>
+                                <h2>$<span id="currentBalance">00</span></h2>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+        <div class="over">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="Deposit-area">
+                    <h4>Deposit</h4>
+                    <input type="text" name="" id="DepositInput" class="form-control"
+                        placeholder="$ amount you want to deposit">
+                    <br>
+                    <button class="btn btn-success" id="addDeposit">Deposit</button>
+                </div>
+            </div>
+          
+                <div class="col-md-6">
+                    <div class="Withdrow-area">
+                        <h4>Withdrow</h4>
+                        <input type="text" name="" id="WithdrowInput" class="form-control"
+                            placeholder="$ amount you want to withdrow">
+                        <br>
+                        <button class="btn btn-success" id="addWithdrow">Withdrow</button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+    </div>
+
+<script src="./Assect/Js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   
+</body>
+</html>
